@@ -21,9 +21,7 @@ DESC="Plone CMS service"
 NAME=plone
 DAEMON_DIR=
 DAEMON_ARGS=""
-PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
-DEBUG=1
 
 # Read configuration variable file if it is present
 [ -r /etc/default/$NAME ] && . /etc/default/$NAME
