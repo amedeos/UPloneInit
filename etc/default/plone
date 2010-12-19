@@ -9,7 +9,10 @@ PLONE_USER=plone
 PLONE_HOME=/home/plone/plonesite/oscert
 
 # instances to start
-PLONE_INSTANCE="zeoserver instance01 instance02"
+PLONE_START="zeoserver instance01 instance02"
+
+# instances to stop
+PLONE_STOP="instance02 instance01 zeoserver"
 
 # sleep time bt starting instance
 SLEEP_SECOND=1
